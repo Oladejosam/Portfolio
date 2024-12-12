@@ -73,6 +73,7 @@ a:hover {
 #tmWelcome {
   position: relative;
   display: flex;
+  justify-content: around;
   align-items: center;
 }
 
@@ -285,6 +286,10 @@ p {
 @media (max-width: 991px) {
   .tm-contact-items-container {
     flex-direction: column;
+  }
+
+  #tmWelcome{
+    
   }
 
   .tm-contact-item {
