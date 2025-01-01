@@ -284,12 +284,13 @@ p {
 }
 
 @media (max-width: 991px) {
+  .parallax-window {
+  min-height: 1300px;
+  background: transparent;
+}
+
   .tm-contact-items-container {
     flex-direction: column;
-  }
-
-  #tmWelcome{
-    
   }
 
   .tm-contact-item {
@@ -313,6 +314,23 @@ p {
 }
 
 @media (max-width: 730px) {
+  .parallax-window {
+  min-height: 1400px;
+  background: transparent;
+}
+  .tm-brand-container-outer {
+  top: 100px;
+}
+
+.tm-welcome-container {
+  min-height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
   .tm-portfolio-item {
     flex-direction: column;
   }
@@ -335,6 +353,11 @@ p {
   .tm-brand-container {
     padding: 45px;
   }
+
+  .parallax-window {
+  min-height: 1600px;
+  background: transparent;
+}
 }
 
 @media (max-width: 443px) {
@@ -345,4 +368,9 @@ p {
   .tm-brand-container {
     padding: 25px;
   }
+
+  .parallax-window {
+  min-height: 1800px;
+  background: transparent;
+}
 }
